@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- metatags sharing -->
+	<meta property="og:url" 			content="">
+	<meta property="og:type" 			content="">
+	<meta property="og:title"			content="">
+	<meta property="og:description" content="">
+	<meta property="og:image"        content="">
+	
+	<script type="text/javascript" src="assets/js/script.js"></script>
+
+	<!-- End metatags sharing -->
+	<title>Santaluz Portal - O seu portal de notícias</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<!-- primeiro topo do site -->
+	<div class="topo">
+		<div class="topointerior">
+			<div class="menuinterior">
+				<ul>
+					<li><a href="./" class="ativo">Home</a></li>
+					<li><a href="quem-somos">Quem Somos</a></li>
+					<li><a href="anuncie-aqui">Anuncie Aqui</a></li>
+					<li><a href="contatos">Contatos</a></li>
+				</ul>
+			</div>
+			<div class="redessociaisinterior">
+				<!-- formulário de busca -->
+				<input type="image" src="assets/img/glass.png" name="" class="btnbusca">
+				<input type="text" name="busca" class="buscainput" placeholder="buscar...">
+				
+				<!-- icones das redes sociais -->
+				<a href="#" target="_blank"><img src="assets/img/linkedin.png"></a>
+				<a href="#" target="_blank"><img src="assets/img/youtube.png"></a>
+				<a href="#" target="_blank"><img src="assets/img/instagram.png"></a>
+				<a href="#" target="_blank"><img src="assets/img/twitter.png"></a>
+				<a href="#" target="_blank"><img src="assets/img/facebook.png"></a>
+			</div>
+		</div>
+	</div>
+	<!-- final primeiro topo do site -->
+
+	<!-- topo da logomarca e do banner -->
+	<div class="topo2">
+		<div class="topo2int">
+			<div class="logo">
+				<a href="#">Santaluz Portal</a>
+			</div>
+			<div class="publicidade">
+				<img src="assets/img/social.jpg">
+			</div>
+		</div>
+	</div>
+	<!-- final do topo da logomarca e do banner -->
+
+	<!-- Menu do site -->
+	<div class="menu">
+		<div class="menunoticias">
+			<img class="menumobile" src="assets/img/hamburger-menu.png" border="0" width="40" height="40" onclick="toggleMenu()">
+			<ul id="menu">
+				<li class="ativo"><a href="#" >Home</a></li>
+				<li><a href="#">Economia</a></li>
+				<li>
+					<a href="#">Entretenimento</a>
+					<img src="assets/img/arrowdown.png" width="10" border="0">
+					<div class="submenu">
+						<a href="#">
+							<div class="submenuitem">
+								<a href="#">Santaluz</a>
+								<img src="assets/img/arrowright.png" width="10" border="0">
+								<div class="submenu2">
+									<a href=""><div class="submenuitem2">Diego 1</div></a>
+									<a href=""><div class="submenuitem2">Diego 2</div></a>
+									<a href=""><div class="submenuitem2">Diego 3</div></a>
+									<a href=""><div class="submenuitem2">Diego 3</div></a>
+									<a href=""><div class="submenuitem2">Diego 3</div></a>
+								</div>
+							</div>
+						</a>
+						<a href="#"><div class="submenuitem">Submenu 2</div></a>
+						<a href="#"><div class="submenuitem">Submenu 3</div></a>
+						<a href="#"><div class="submenuitem">Submenu 4</div></a>
+						<a href="#"><div class="submenuitem">Submenu 5</div></a>
+					</div>
+				</li>
+				<li>
+					<a href="#">Esportes</a>
+					<img src="assets/img/arrowdown.png" width="10" border="0">
+					<div class="submenu">
+						<a href="#"><div class="submenuitem">Submenu 1</div></a>
+						<a href="#"><div class="submenuitem">Submenu 2</div></a>
+						<a href="#"><div class="submenuitem">Submenu 3</div></a>
+					</div>
+				</li>
+				<li><a href="#">Geral</a></li>
+				<li>
+					<a href="#">Notícias</a>
+					<img src="assets/img/arrowdown.png" width="10" border="0">
+					<div class="submenu">
+						<a href="#"><div class="submenuitem">Submenu 1</div></a>
+						<a href="#"><div class="submenuitem">Submenu 2</div></a>
+						<a href="#"><div class="submenuitem">Submenu 3</div></a>
+						<a href="#"><div class="submenuitem">Submenu 4</div></a>
+					</div>
+				</li>
+				<li><a href="#">Polícia</a></li>
+				<li><a href="#">Vídeos</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- Final do menu do site -->
+
+	<!-- last news -->
+	<div class="ultimasnoticias">
+		<div class="ultimasnoticiasinterior">
+			<div class="ultnewsitem">
+				<div class="areanews">
+					Ultimas Notícias
+				</div>
+
+				<div class="noticiastext">
+					Donald Trump together with President of Mexico discouce about the wall between U.S.A and Mexico
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end last news -->
+
+	<div class="container">
+		<div class="containerinterior">
+			<div class="conteudoprincipal">
+				<div class="slideshow" id="slideshow">
+					<div class="identificador_slide">
+						<div class="ident_bola" onclick="mudarSlide(0)"></div>
+						<div class="ident_bola" onclick="mudarSlide(1)"></div>
+						<div class="ident_bola" onclick="mudarSlide(2)"></div>
+						<div class="ident_bola" onclick="mudarSlide(3)"></div>
+					</div>
+
+					<div class="slideshowarea">
+						<!-- slides -->
+						<a href="#">
+							<div class="slide" style="background-image: url('http://www.google.com/google.jpg') ">
+								<div class="slideinfo">
+									<div class="slideinfo_titulo"><a href="#"> Serviços Google</a></div>
+									<div class="slideinfo_subtitulo">Venha descobrir um mundo cheio de possibilidades e muita tecnologia</div>
+								</div>
+							</div>
+						</a>
+						<a href="#">
+							<div class="slide" style="background-image: url('assets/img/ux-ui.png') ">
+								<div class="slideinfo">
+									<div class="slideinfo_titulo"><a href="#"> UX - UI</a></div>
+									<div class="slideinfo_subtitulo"></a>Qual a diferença entre elas, venha conferir...</div>
+								</div>
+							</div>
+						</a>
+						<a href="#">
+							<div class="slide" style="background-image: url('assets/img/dev-web.png') ">
+								<div class="slideinfo">
+									<div class="slideinfo_titulo"><a href="#"> Desenvolvimento Web</a></div>
+									<div class="slideinfo_subtitulo">Desenvolvemos Sites e sistemas com as tecnologias mais atuais</div>
+								</div>
+							</div>
+						</a>
+						<a href="#">
+							<div class="slide" style="background-image: url('assets/img/mobile.jpg') ">
+								<div class="slideinfo">
+									<div class="slideinfo_titulo"><a href="#"> User Interface</a></div>
+									<div class="slideinfo_subtitulo">As melhores interfaces para o seu app, para fidelizar o seu cliente</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="widget widget_noticia">
+					<!-- titulo do widget -->
+					<div class="widget_titulo"> NOTÍCIAS </div>
+					<!-- conteúdo do widget -->
+					<div class="widget_conteudo">
+						<div class="noticiaarea1">
+							<a href="#">
+								<div class="noticiaitem_principal">
+									<div class="noticiaimg_principal"> 
+										<img src="" border="0" >
+									</div>
+									<div class="noticiatitulo_principal">algum texto que possa ser usado como titulo</div>
+									<div class="noticiainfo_principal"> 500 comentários      criado por: diego souza</div>
+									<div class="noticiainfo_secundaria"> Uma equipe da policia militar (PM), na tarde de segunda-feira(09) quatro pessoas acusadas de tráfico de drogas e de associação... <a href=""> Leia Mais >></a></div>
+								</div>
+							</a>
+						</div>
+
+						<div class="noticiaarea2">
+							<!-- noticia 01 -->
+							<a href="#">
+								<div class="noticiaitem">
+									<div class="noticiaimg">
+										<img src="" border="0" width="80" height="80" />
+									</div>
+									<div class="noticiatitulo"> algum texto qualquer</div>
+									<div class="noticiainfo">500 comentários</div>
+								</div>
+							</a>
+
+							<a href="#">
+								<div class="noticiaitem">
+									<div class="noticiaimg">
+										<img src="" border="0" width="80" height="80" />
+									</div>
+									<div class="noticiatitulo"> algum texto qualquer</div>
+									<div class="noticiainfo">500 comentários</div>
+								</div>
+							</a>
+
+							<a href="#">
+								<div class="noticiaitem">
+									<div class="noticiaimg">
+										<img src="" border="0" width="80" height="80" />
+									</div>
+									<div class="noticiatitulo"> algum texto qualquer</div>
+									<div class="noticiainfo">500 comentários</div>
+								</div>
+							</a>
+						</div>
+						<div style="clear: both;"></div>
+					</div>
+				</div>
+
+				<div class="widget widget_noticia">
+					<!-- titulo do widget -->
+					<div class="widget_titulo"> ESPORTES </div>
+					<!-- conteúdo do widget -->
+					<div class="widget_conteudo">
+						<div class="noticiaarea1">
+							<a href="#">
+								<div class="noticiaitem_principal">
+									<div class="noticiaimg_principal"> 
+										<img src="" border="0">
+									</div>
+									<div class="noticiatitulo_principal">algum texto que possa ser usado como titulo</div>
+									<div class="noticiainfo_principal"> 500 comentários      criado por: diego souza</div>
+									<div class="noticiainfo_secundaria"> Uma equipe da policia militar (PM), na tarde de segunda-feira(09) quatro pessoas acusadas de tráfico de drogas e de associação... <a href=""> Leia Mais >></a></div>
+								</div>
+							</a>
+						</div>
+
+						<div class="noticiaarea2">
+							<!-- noticia 01 -->
+							<a href="#">
+								<div class="noticiaitem">
+									<div class="noticiaimg">
+										<img src="" border="0" width="80" height="80" />
+									</div>
+									<div class="noticiatitulo"> algum texto qualquer</div>
+									<div class="noticiainfo">500 comentários</div>
+								</div>
+							</a>
+
+							<a href="#">
+								<div class="noticiaitem">
+									<div class="noticiaimg">
+										<img src="" border="0" width="80" height="80" />
+									</div>
+									<div class="noticiatitulo"> algum texto qualquer</div>
+									<div class="noticiainfo">500 comentários</div>
+								</div>
+							</a>
+
+							<a href="#">
+								<div class="noticiaitem">
+									<div class="noticiaimg">
+										<img src="" border="0" width="80" height="80" />
+									</div>
+									<div class="noticiatitulo"> algum texto qualquer</div>
+									<div class="noticiainfo">500 comentários</div>
+								</div>
+							</a>
+						</div>
+						<div style="clear: both;"></div>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- conteúdo lateral -->
+			<div class="asideright">
+				<!-- social media -->
+				<div class="widget">
+					<!-- titulo do widget -->
+					<div class="widget_titulo"> SOCIAL </div>
+					<!-- conteúdo do widget -->
+					<div class="widget_conteudo">
+						<a href="#" target="_blank"><img src="assets/img/linkedin.png"></a>
+						<a href="#" target="_blank"><img src="assets/img/youtube.png"></a>
+						<a href="#" target="_blank"><img src="assets/img/instagram.png"></a>
+						<a href="#" target="_blank"><img src="assets/img/twitter.png"></a>
+						<a href="#" target="_blank"><img src="assets/img/facebook.png"></a>
+					</div>
+				</div>
+
+
+				<!-- ultimas noticias -->
+				<div class="widget">
+					<div class="widget_titulo"> 	ÚLTIMAS NOTÍCIAS </div>
+					<div class="widget_conteudo">
+						<div class="noticia_item">
+							<a href="http://noticiasdesantaluz.com.br/bolsonaro-sanciona-lei-que-permite-familias-pobres-tirarem-escritura-sem-ter-o-habite-se/" target="_blank
+							">	Bolsonaro sanciona lei que permite famílias pobres tirarem escritura sem ter o habite-se</a>
+						</div>
+						<div class="noticia_item">
+							<a href="http://noticiasdesantaluz.com.br/veja-os-resultados-da-3a-rodada-da-serie-a-do-campeonato-rural-de-futebol-de-santaluz/" target="_blank
+							">	Veja os resultados da 3ª rodada da Série A do Campeonato Rural de Futebol de Santaluz</a>
+						</div>
+						<div class="noticia_item">
+							<a href="http://noticiasdesantaluz.com.br/jovem-e-baleado-durante-tentativa-de-homicidio-em-araci-um-e-preso/" target="_blank
+							">	Jovem é baleado durante tentativa de homicídio em Araci; um é preso</a>
+						</div>
+
+						<div class="noticia_item">
+							<a href="http://noticiasdesantaluz.com.br/bolsonaro-sanciona-lei-que-permite-familias-pobres-tirarem-escritura-sem-ter-o-habite-se/" target="_blank
+							">	Bolsonaro sanciona lei que permite famílias pobres tirarem escritura sem ter o habite-se</a>
+						</div>
+						<div class="noticia_item">
+							<a href="http://noticiasdesantaluz.com.br/veja-os-resultados-da-3a-rodada-da-serie-a-do-campeonato-rural-de-futebol-de-santaluz/" target="_blank
+							">	Veja os resultados da 3ª rodada da Série A do Campeonato Rural de Futebol de Santaluz</a>
+						</div>
+						<div class="noticia_item">
+							<a href="http://noticiasdesantaluz.com.br/jovem-e-baleado-durante-tentativa-de-homicidio-em-araci-um-e-preso/" target="_blank
+							">	Jovem é baleado durante tentativa de homicídio em Araci; um é preso</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- publicidade -->
+				<div class="widget">
+					<!-- titulo do widget -->
+					<div class="widget_titulo"> 	PUBLICIDADE </div>
+
+					<!-- conteúdo do widget -->
+					<div class="widget_conteudo">
+						<img  src="assets/img/php_banner.png" class="propaganda">
+					</div>
+				</div>
+
+				<!-- encontre-nos -->
+				<div class="widget">
+					<div class="widget_titulo"> 	ENCONTRE-NOS NO FACEBOOK </div>
+					<div class="widget_conteudo">
+
+						<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FDiegosouzadev-109244407074447%2F&tabs&width=275&height=120&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1845552275764888" width="275" height="120" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
